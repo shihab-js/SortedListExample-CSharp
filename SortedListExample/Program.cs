@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace SortedListExample
 {
@@ -6,6 +7,9 @@ namespace SortedListExample
     {
         static void Main(string[] args)
         {
+            //create a sorted list
+            SortedList<int, string> names = new SortedList<int, string>();
+
             
         }
     }
