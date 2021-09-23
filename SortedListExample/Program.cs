@@ -16,6 +16,13 @@ namespace SortedListExample
             names.Add(1, "Shihab");
             names.Add(4, "Rayhan");
 
+
+            //Iterate the elements
+            foreach(KeyValuePair<int, string> kv in names)
+            {
+                Console.WriteLine(kv.Key + " " + kv.Value);
+            }
+
         }
     }
 }
